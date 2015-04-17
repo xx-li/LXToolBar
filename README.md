@@ -6,12 +6,11 @@
 ```objc
 #pragma mark - QFToolBarDelegate
 - (NSInteger)numberOfItemsInToolBar:(QFToolBar *)toolBar {
-    
     return _itemNames.count;
 }
 
 - (UIControl *)toolBar:(QFToolBar *)toolBar itemForIndex:(NSInteger)index {
-    
+
     LXLayoutButton * button = [LXLayoutButton buttonWithType:UIButtonTypeCustom];
     button.subMargin = 5.0;
     [button setImage:[UIImage imageNamed:@"down_tag"] forState:UIControlStateNormal];
