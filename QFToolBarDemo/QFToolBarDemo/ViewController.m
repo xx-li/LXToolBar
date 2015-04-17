@@ -38,6 +38,7 @@
     
 }
 
+#pragma mark - QFToolBarDelegate
 - (NSInteger)numberOfItemsInToolBar:(QFToolBar *)toolBar {
     
     return _itemNames.count;
@@ -47,6 +48,7 @@
     
     LXLayoutButton * button = [LXLayoutButton buttonWithType:UIButtonTypeCustom];
     button.subMargin = 5.0;
+    button.layoutButtonType = LXLayoutButtonTypeRight;
     [button setImage:[UIImage imageNamed:@"down_tag"] forState:UIControlStateNormal];
     [button setImage:[UIImage imageNamed:@"up_tag"] forState:UIControlStateSelected];
     [button setTitle:_itemNames[index] forState:UIControlStateNormal];
@@ -57,9 +59,7 @@
 }
 
 - (void)toolBar:(QFToolBar *)toolBar didSelectItemAtIndex:(NSInteger)index {
-    
     _label.text = _itemNames[index];
-    
 }
 
 - (void)toolBar:(QFToolBar *)toolBar didDeselectItemAtIndex:(NSInteger)index {
