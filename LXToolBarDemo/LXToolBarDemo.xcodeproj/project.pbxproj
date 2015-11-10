@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8940D06A074B19F92F97BDD1 /* libPods-LXToolBarDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D56225F58A91559ED586F2 /* libPods-LXToolBarDemo.a */; };
+		C00B58891BF1925100B135FC /* LXToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C00B58881BF1925100B135FC /* LXToolBar.m */; };
+		C06575C11BF18F98009C1F46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C06575C01BF18F98009C1F46 /* main.m */; };
+		C06575C41BF18F98009C1F46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C06575C31BF18F98009C1F46 /* AppDelegate.m */; };
+		C06575CC1BF18F99009C1F46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C06575CB1BF18F99009C1F46 /* Assets.xcassets */; };
+		C06575CF1BF18F99009C1F46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C06575CD1BF18F99009C1F46 /* LaunchScreen.storyboard */; };
+		C06578251BF19132009C1F46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C06578231BF19132009C1F46 /* ViewController.m */; };
+		C06578271BF1914B009C1F46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C06578261BF1914B009C1F46 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		778841A90742F4DEE02B2F98 /* Pods-LXToolBarDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXToolBarDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LXToolBarDemo/Pods-LXToolBarDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8D4B73D4F68F7AD9EC541711 /* Pods-LXToolBarDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXToolBarDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LXToolBarDemo/Pods-LXToolBarDemo.release.xcconfig"; sourceTree = "<group>"; };
+		92D56225F58A91559ED586F2 /* libPods-LXToolBarDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LXToolBarDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C00B58871BF1925100B135FC /* LXToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXToolBar.h; sourceTree = "<group>"; };
+		C00B58881BF1925100B135FC /* LXToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXToolBar.m; sourceTree = "<group>"; };
+		C06575BC1BF18F98009C1F46 /* LXToolBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXToolBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C06575C01BF18F98009C1F46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C06575C21BF18F98009C1F46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C06575C31BF18F98009C1F46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C06575CB1BF18F99009C1F46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C06575CE1BF18F99009C1F46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C06575D01BF18F99009C1F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C06578221BF19132009C1F46 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C06578231BF19132009C1F46 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C06578261BF1914B009C1F46 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C06575B91BF18F98009C1F46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8940D06A074B19F92F97BDD1 /* libPods-LXToolBarDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C00B58861BF1925100B135FC /* LXToolBar */ = {
+			isa = PBXGroup;
+			children = (
+				C00B58871BF1925100B135FC /* LXToolBar.h */,
+				C00B58881BF1925100B135FC /* LXToolBar.m */,
+			);
+			name = LXToolBar;
+			path = ../../LXToolBar;
+			sourceTree = "<group>";
+		};
+		C06575B31BF18F98009C1F46 = {
+			isa = PBXGroup;
+			children = (
+				C06575BE1BF18F98009C1F46 /* LXToolBarDemo */,
+				C06575BD1BF18F98009C1F46 /* Products */,
+				C8D789A76AD9BF6E0B2B1FA8 /* Pods */,
+				D1072715E3C8FFEB27599ADD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C06575BD1BF18F98009C1F46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C06575BC1BF18F98009C1F46 /* LXToolBarDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C06575BE1BF18F98009C1F46 /* LXToolBarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C00B58861BF1925100B135FC /* LXToolBar */,
+				C06575C21BF18F98009C1F46 /* AppDelegate.h */,
+				C06575C31BF18F98009C1F46 /* AppDelegate.m */,
+				C06578221BF19132009C1F46 /* ViewController.h */,
+				C06578231BF19132009C1F46 /* ViewController.m */,
+				C06578261BF1914B009C1F46 /* Main.storyboard */,
+				C06575CB1BF18F99009C1F46 /* Assets.xcassets */,
+				C06575CD1BF18F99009C1F46 /* LaunchScreen.storyboard */,
+				C06575D01BF18F99009C1F46 /* Info.plist */,
+				C06575BF1BF18F98009C1F46 /* Supporting Files */,
+			);
+			path = LXToolBarDemo;
+			sourceTree = "<group>";
+		};
+		C06575BF1BF18F98009C1F46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C06575C01BF18F98009C1F46 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C8D789A76AD9BF6E0B2B1FA8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				778841A90742F4DEE02B2F98 /* Pods-LXToolBarDemo.debug.xcconfig */,
+				8D4B73D4F68F7AD9EC541711 /* Pods-LXToolBarDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D1072715E3C8FFEB27599ADD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92D56225F58A91559ED586F2 /* libPods-LXToolBarDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C06575BB1BF18F98009C1F46 /* LXToolBarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C06575D31BF18F99009C1F46 /* Build configuration list for PBXNativeTarget "LXToolBarDemo" */;
+			buildPhases = (
+				2B83E483341DB7603EA5A96A /* Check Pods Manifest.lock */,
+				C06575B81BF18F98009C1F46 /* Sources */,
+				C06575B91BF18F98009C1F46 /* Frameworks */,
+				C06575BA1BF18F98009C1F46 /* Resources */,
+				BA2ECEF34AB056AC56655D59 /* Embed Pods Frameworks */,
+				6B61CEC59D399AE9A37D3AF2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXToolBarDemo;
+			productName = LXToolBarDemo;
+			productReference = C06575BC1BF18F98009C1F46 /* LXToolBarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C06575B41BF18F98009C1F46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "深圳创达云睿智能科技有限公司";
+				TargetAttributes = {
+					C06575BB1BF18F98009C1F46 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = C06575B71BF18F98009C1F46 /* Build configuration list for PBXProject "LXToolBarDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C06575B31BF18F98009C1F46;
+			productRefGroup = C06575BD1BF18F98009C1F46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C06575BB1BF18F98009C1F46 /* LXToolBarDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C06575BA1BF18F98009C1F46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C06578271BF1914B009C1F46 /* Main.storyboard in Resources */,
+				C06575CF1BF18F99009C1F46 /* LaunchScreen.storyboard in Resources */,
+				C06575CC1BF18F99009C1F46 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B83E483341DB7603EA5A96A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6B61CEC59D399AE9A37D3AF2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LXToolBarDemo/Pods-LXToolBarDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA2ECEF34AB056AC56655D59 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LXToolBarDemo/Pods-LXToolBarDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C06575B81BF18F98009C1F46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C06578251BF19132009C1F46 /* ViewController.m in Sources */,
+				C00B58891BF1925100B135FC /* LXToolBar.m in Sources */,
+				C06575C41BF18F98009C1F46 /* AppDelegate.m in Sources */,
+				C06575C11BF18F98009C1F46 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C06575CD1BF18F99009C1F46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C06575CE1BF18F99009C1F46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C06575D11BF18F99009C1F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C06575D21BF18F99009C1F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C06575D41BF18F99009C1F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 778841A90742F4DEE02B2F98 /* Pods-LXToolBarDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LXToolBarDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eegsmart.LXToolBarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C06575D51BF18F99009C1F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D4B73D4F68F7AD9EC541711 /* Pods-LXToolBarDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LXToolBarDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eegsmart.LXToolBarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C06575B71BF18F98009C1F46 /* Build configuration list for PBXProject "LXToolBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C06575D11BF18F99009C1F46 /* Debug */,
+				C06575D21BF18F99009C1F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C06575D31BF18F99009C1F46 /* Build configuration list for PBXNativeTarget "LXToolBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C06575D41BF18F99009C1F46 /* Debug */,
+				C06575D51BF18F99009C1F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C06575B41BF18F98009C1F46 /* Project object */;
+}
