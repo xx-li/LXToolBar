@@ -3,8 +3,7 @@
 等比例布局它上面的各个Item，并支持AutoLayout。
 
 ###图示如下：
-
-
+<img src="./LXToolBar.gif"/>
 
 ###使用方法
 ```objc
