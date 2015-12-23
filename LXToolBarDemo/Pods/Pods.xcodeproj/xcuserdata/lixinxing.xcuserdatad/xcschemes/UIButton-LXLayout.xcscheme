@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '41013D3F37BA82DD2A1EEBD8'
-               BlueprintName = 'LXLayoutButton'
+               BlueprintIdentifier = '28D24F1B25DD20136B727A7B'
+               BlueprintName = 'UIButton-LXLayout'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libLXLayoutButton.a'>
+               BuildableName = 'libUIButton-LXLayout.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

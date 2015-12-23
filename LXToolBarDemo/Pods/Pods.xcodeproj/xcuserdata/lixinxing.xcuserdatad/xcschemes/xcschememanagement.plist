@@ -4,12 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>LXLayoutButton.xcscheme</key>
+		<key>Pods-LXToolBarDemo.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-LXToolBarDemo.xcscheme</key>
+		<key>UIButton-LXLayout.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,12 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>6F2472B915C4ED685349851CB6B2590E</key>
+		<key>8A2E12553A6C4ACD5B8EAA5125DF1DF8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9DB87C8D66C51A4E933DF9F48DE7F285</key>
+		<key>BEB4A03DA4957A361739EA5582F6E03D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

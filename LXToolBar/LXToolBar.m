@@ -37,7 +37,7 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-
+        
         [self initialize];
     }
     return self;
@@ -54,21 +54,6 @@
 
 - (void)willMoveToWindow:(UIWindow *)newWindow {
     [super willMoveToWindow:newWindow];
-    
-    if (_isDrawBottomSepLine || _isDrawTopSepLine)  {
-        
-        CGFloat offsetY = 1.0f/UIScreen.mainScreen.scale;
-        
-        if (_isDrawTopSepLine) {
-            offsetY = 0 - offsetY;
-        }
-        
-        [self.layer setShadowOffset:CGSizeMake(0, offsetY)];
-        [self.layer setShadowRadius:0];
-        [self.layer setShadowColor:[UIColor blackColor].CGColor];
-        [self.layer setShadowOpacity:0.25f];
-    }
-    
     [self reloadAllItems];
 }
 
@@ -90,24 +75,6 @@
     _isShowSelectedTag = isShowSelectedTag;
 }
 
-- (void)setIsDrawBottomSepLine:(BOOL)isDrawBottomSepLine {
-    _isDrawBottomSepLine = isDrawBottomSepLine;
-    if (_isDrawBottomSepLine) {
-        _isDrawTopSepLine = NO;
-    }
-}
-
-- (void)setIsDrawTopSepLine:(BOOL)isDrawTopSepLine {
-    _isDrawTopSepLine = isDrawTopSepLine;
-    if (_isDrawTopSepLine) {
-        _isDrawBottomSepLine = NO;
-    }
-}
-
-- (void) setIsShowSeparatorLine:(BOOL)isShowSeparatorLine {
-    _isShowSeparatorLine = isShowSeparatorLine;
-}
-
 - (void)setSelectedIndex:(NSInteger)selectedIndex {
     _selectedIndex = selectedIndex;
     
@@ -121,12 +88,13 @@
 #pragma  mark - private
 - (void) initialize {
     NSLog(@"startinitialize");
-
+    self.backgroundColor = [UIColor whiteColor];
     _selectedIndex = NSNotFound;
     _isDrawBottomSepLine = YES;
     _isShowSelectedTag = YES;
-    _isShowSeparatorLine = YES;
-    _separatorLineColor = [UIColor lightGrayColor];
+    _isShowItemSeparatorLine = YES;
+    _itemSeparatorLineColor = [UIColor lightGrayColor];
+    _edgeSeparatorLineColor = [[UIColor blackColor] colorWithAlphaComponent:0.25];
     
 }
 
@@ -189,11 +157,11 @@
                                ]];
         //-separatorSize *(itemCount - 1) / itemCount
         //添加分割线
-        if (_isShowSeparatorLine) {
+        if (_isShowItemSeparatorLine) {
             //添加分割线的约束在Item之间。
             UIImageView * separatorView = [[UIImageView alloc] init];
-            if (_separatorLineColor) {
-                separatorView.backgroundColor = _separatorLineColor;
+            if (_itemSeparatorLineColor) {
+                separatorView.backgroundColor = _itemSeparatorLineColor;
             }
             if (_separatorImage) {
                 separatorView.image = _separatorImage;
@@ -237,12 +205,12 @@
             [self addConstraints:@[
                                    _tagViewCenterConstraint,
                                    [NSLayoutConstraint constraintWithItem:_selectedTagView attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual  toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1 constant:CGRectGetHeight(_selectedTagView.frame)],
-                                   [NSLayoutConstraint constraintWithItem:_selectedTagView attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual  toItem:self attribute:NSLayoutAttributeBottom multiplier:1 constant:0],
+                                   [NSLayoutConstraint constraintWithItem:_selectedTagView attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual  toItem:self attribute:NSLayoutAttributeBottom multiplier:1 constant: -1.0 / [UIScreen mainScreen].scale],
                                    [NSLayoutConstraint constraintWithItem:_selectedTagView attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0 constant:CGRectGetWidth(_selectedTagView.frame)]
                                    ]];
         }
     }
-
+    
     //更新状态和位置
     if (_isShowSelectedTag && _selectedItem) {
         _selectedTagView.hidden = NO;
@@ -294,7 +262,7 @@
         }
         
     }
-
+    
 }
 
 - (void) itemClick:(UIControl *)sender {
@@ -302,6 +270,34 @@
     self.selectedIndex = curIndex;
 }
 
+- (void)drawRect:(CGRect)rect {
+    [super drawRect:rect];
+    
+    if (!_isDrawTopSepLine && !_isDrawBottomSepLine) {
+        return;
+    }
+    
+    CGFloat scale = 1.0 / [UIScreen mainScreen].scale;
+    CGFloat pointY = 0;
+    
+    CGContextRef contexRef = UIGraphicsGetCurrentContext();
+    CGContextSetStrokeColorWithColor(contexRef, _edgeSeparatorLineColor.CGColor);
+    CGContextSetLineWidth(contexRef, scale);
+    
+    if (_isDrawBottomSepLine) {
+        pointY = CGRectGetHeight(self.bounds) - scale / 2.0;
+        CGContextMoveToPoint(contexRef, 0, pointY);
+        CGContextAddLineToPoint(contexRef, CGRectGetWidth(self.bounds), pointY);
+    }
+    
+    if (_isDrawTopSepLine) {
+        pointY = scale / 2.0;
+        CGContextMoveToPoint(contexRef, 0, pointY);
+        CGContextAddLineToPoint(contexRef, CGRectGetWidth(self.bounds), pointY);
+    }
+    
+    CGContextDrawPath(contexRef, kCGPathFillStroke);
+}
 
 
 @end

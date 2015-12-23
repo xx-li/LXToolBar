@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "LXToolBar.h"
-#import <LXLayoutButton.h>
+#import <UIButton+LXLayout.h>
 
 @interface ViewController () <LXToolBarDelegate>
 
@@ -32,11 +32,12 @@
 
     _toolBar.isShowSelectedTag = YES; 
     _toolBar.isDrawBottomSepLine = YES;
-    _toolBar.isShowSeparatorLine = YES;
+    _toolBar.isDrawTopSepLine = YES;
+    _toolBar.isShowItemSeparatorLine = YES;
     _toolBar.backgroundColor = [UIColor whiteColor];
     _toolBar.separatorLineInsets = UIEdgeInsetsMake(5, 0, 5, 0);
     _toolBar.separatorImage = [UIImage imageNamed:@"sep_line"];
-    _toolBar.separatorLineColor = [UIColor redColor];
+    _toolBar.itemSeparatorLineColor = [UIColor redColor];
     _toolBar.selectedIndex = 0;
 
 }
@@ -56,9 +57,9 @@
 //创建每个Item
 - (UIControl *)toolBar:(LXToolBar *)toolBar itemForIndex:(NSInteger)index {
     
-    LXLayoutButton * button = [LXLayoutButton buttonWithType:UIButtonTypeCustom];
-    button.subMargin = 5.0;
-    button.layoutButtonType = LXLayoutButtonTypeRight;
+    UIButton * button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.lx_subMargin = 5.0;
+    button.lx_layoutType = LXButtonLayoutTypeImageRight;
     [button setImage:[UIImage imageNamed:@"down_arrow"] forState:UIControlStateNormal];
     [button setImage:[UIImage imageNamed:@"up_arrow"] forState:UIControlStateSelected];
     [button setTitle:_itemNames[index] forState:UIControlStateNormal];
@@ -97,7 +98,7 @@
 
 - (IBAction)isShowItemsSeparatorLineSwitchValueChanged:(id)sender {
     UISwitch * curSwitch = (UISwitch *)sender;
-    _toolBar.isShowSeparatorLine = curSwitch.isOn;
+    _toolBar.isShowItemSeparatorLine = curSwitch.isOn;
     [_toolBar reloadAllItems];
 }
 @end

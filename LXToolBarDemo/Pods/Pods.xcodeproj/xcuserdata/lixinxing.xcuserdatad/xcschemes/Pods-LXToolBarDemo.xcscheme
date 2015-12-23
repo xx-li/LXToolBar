@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'C2F9CE66EDAAB0786C9F18CF'
+               BlueprintIdentifier = 'FE63934C918EA6CDCD6CEFF4'
                BlueprintName = 'Pods-LXToolBarDemo'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-LXToolBarDemo.a'>

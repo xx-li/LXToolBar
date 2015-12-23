@@ -7,63 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A95D11CEC9EC5647F90E60E2C46E71A /* Pods-LXToolBarDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1870EB288585657A968792C8436A5768 /* Pods-LXToolBarDemo-dummy.m */; };
-		12A3F8733B4A554FED09E002D0E355BD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B3C2F7A60189AA38D256A0120B8730 /* CoreGraphics.framework */; };
-		1A47069DB7AA360925C3879AC22F4FA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F79ACD206D7284CF469DA6B24AFACE9 /* UIKit.framework */; };
-		644A9C12C1C8015479F2265DF7B55859 /* LXLayoutButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 38665E1D97459A1DB2D47E0247696243 /* LXLayoutButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A62F4B5DBF39C29CA2780BEAB5B3FCE3 /* LXLayoutButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE6D95D4515230D0BA23747388B4827 /* LXLayoutButton-dummy.m */; };
-		C33A3D532BB1C7D7BA98141A511F9F58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FA9D6C62076D7840475E09238EED1E /* Foundation.framework */; };
-		D0ED9421EB076C25EB7B24FD3C496A81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FA9D6C62076D7840475E09238EED1E /* Foundation.framework */; };
-		D2AC5BD6A5CFA6C5E1660AC1D2CB0891 /* LXLayoutButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8D2714F3420B59FA63401434CD2670 /* LXLayoutButton.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		29C8337FA4870A752D2AE85F2B622A28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FA9D6C62076D7840475E09238EED1E /* Foundation.framework */; };
+		8A27098D36B33954FE9DD62A0E26FA39 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B3C2F7A60189AA38D256A0120B8730 /* CoreGraphics.framework */; };
+		95C758BFB268EE376CE2A7D085D31BFE /* UIButton+LXLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DD281F3CF01C880305F86B9386414F /* UIButton+LXLayout.m */; };
+		9743681269ABF291273EB9A4AE59C24F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F79ACD206D7284CF469DA6B24AFACE9 /* UIKit.framework */; };
+		AF565D8433AA69E0FCD861997B0A60C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FA9D6C62076D7840475E09238EED1E /* Foundation.framework */; };
+		BFE1C936E5B94390EAB2238A15CEB7AB /* Pods-LXToolBarDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1870EB288585657A968792C8436A5768 /* Pods-LXToolBarDemo-dummy.m */; };
+		C3FD239169A266501CFEF9A8DADA89B2 /* UIButton+LXLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 3866348253BF7AA2A9C5C2BAA8CB601E /* UIButton+LXLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E014AD8D7A85E3AD00FC7E2A625993C9 /* UIButton-LXLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B136ACBF4C77C31BCB598A117E5E8293 /* UIButton-LXLayout-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		20BBC84B380345D3F80D21A05013C813 /* PBXContainerItemProxy */ = {
+		84C8C9F658CFB668B93A32AAA5E29041 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9DB87C8D66C51A4E933DF9F48DE7F285;
-			remoteInfo = LXLayoutButton;
+			remoteGlobalIDString = BEB4A03DA4957A361739EA5582F6E03D;
+			remoteInfo = "UIButton-LXLayout";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		08873BEC8D85725B36DC9727DDC327EC /* Pods-LXToolBarDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LXToolBarDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		1870EB288585657A968792C8436A5768 /* Pods-LXToolBarDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LXToolBarDemo-dummy.m"; sourceTree = "<group>"; };
-		1DD7EA6F3C389A4B751A71198FD37953 /* LXLayoutButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXLayoutButton-prefix.pch"; sourceTree = "<group>"; };
 		23B3C2F7A60189AA38D256A0120B8730 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		2E36AACDE1B8A07ED4353A01BEE83758 /* libPods-LXToolBarDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LXToolBarDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		38665E1D97459A1DB2D47E0247696243 /* LXLayoutButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LXLayoutButton.h; path = LXLayoutButton/LXLayoutButton.h; sourceTree = "<group>"; };
+		341A0A803FDFDF10F56226E37C97F5A6 /* libPods-LXToolBarDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LXToolBarDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3866348253BF7AA2A9C5C2BAA8CB601E /* UIButton+LXLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+LXLayout.h"; path = "UIButton-LXLayout/UIButton+LXLayout.h"; sourceTree = "<group>"; };
+		3BCD8587AE93BF1DF27D22F96E6C765C /* libUIButton-LXLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libUIButton-LXLayout.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F79ACD206D7284CF469DA6B24AFACE9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		92BE1E2F3E1E57CE5B578B9D10C53D94 /* UIButton-LXLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton-LXLayout-prefix.pch"; sourceTree = "<group>"; };
 		95FA9D6C62076D7840475E09238EED1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B136ACBF4C77C31BCB598A117E5E8293 /* UIButton-LXLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton-LXLayout-dummy.m"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BC0FAF8F205C7BAE43FEE9DC8012F257 /* Pods-LXToolBarDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LXToolBarDemo-frameworks.sh"; sourceTree = "<group>"; };
 		C5DC0C251BA3179B60805F5B4BEEEA39 /* Pods-LXToolBarDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LXToolBarDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CE111FC82425AFDB9DDAD3812CE32CA9 /* Pods-LXToolBarDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXToolBarDemo.release.xcconfig"; sourceTree = "<group>"; };
-		DDA38A1E3E97F847C5CF070699AF80E5 /* LXLayoutButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXLayoutButton.xcconfig; sourceTree = "<group>"; };
-		DEE6D95D4515230D0BA23747388B4827 /* LXLayoutButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LXLayoutButton-dummy.m"; sourceTree = "<group>"; };
 		ECC943B183ADDD1D9FF5CF811AB8F9DE /* Pods-LXToolBarDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LXToolBarDemo-resources.sh"; sourceTree = "<group>"; };
 		F1B84B1DC5E5897B0CF8C6F8851B4A29 /* Pods-LXToolBarDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXToolBarDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		F86B12FA89712F01B5537AF5BE8BD899 /* libLXLayoutButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLXLayoutButton.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF8D2714F3420B59FA63401434CD2670 /* LXLayoutButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LXLayoutButton.m; path = LXLayoutButton/LXLayoutButton.m; sourceTree = "<group>"; };
+		F2DD281F3CF01C880305F86B9386414F /* UIButton+LXLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+LXLayout.m"; path = "UIButton-LXLayout/UIButton+LXLayout.m"; sourceTree = "<group>"; };
+		FF3A9816E57B9413B66C1760DA5019FA /* UIButton-LXLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIButton-LXLayout.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		57C40F2CC02611DFF23D3F304638EDBC /* Frameworks */ = {
+		3FB942CDDF92B769C3E62B374C14BFB6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12A3F8733B4A554FED09E002D0E355BD /* CoreGraphics.framework in Frameworks */,
-				D0ED9421EB076C25EB7B24FD3C496A81 /* Foundation.framework in Frameworks */,
-				1A47069DB7AA360925C3879AC22F4FA7 /* UIKit.framework in Frameworks */,
+				8A27098D36B33954FE9DD62A0E26FA39 /* CoreGraphics.framework in Frameworks */,
+				AF565D8433AA69E0FCD861997B0A60C0 /* Foundation.framework in Frameworks */,
+				9743681269ABF291273EB9A4AE59C24F /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F70AC8FE08F62141CC5333E3B487AC88 /* Frameworks */ = {
+		7C8C180E4F1DF7BDE5053D52DCC13118 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C33A3D532BB1C7D7BA98141A511F9F58 /* Foundation.framework in Frameworks */,
+				29C8337FA4870A752D2AE85F2B622A28 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,12 +86,24 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		581B0501731C1BDA6F2C212ECFED10D5 /* Pods */ = {
+		28C159F40FEB50F5D7D5BEFEB264BCCF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BE510A22C5A9ED8047537E314D4A8E46 /* LXLayoutButton */,
+				FF3A9816E57B9413B66C1760DA5019FA /* UIButton-LXLayout.xcconfig */,
+				B136ACBF4C77C31BCB598A117E5E8293 /* UIButton-LXLayout-dummy.m */,
+				92BE1E2F3E1E57CE5B578B9D10C53D94 /* UIButton-LXLayout-prefix.pch */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/UIButton-LXLayout";
+			sourceTree = "<group>";
+		};
+		5D63427220F55F8643BDCA216D6B125D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				341A0A803FDFDF10F56226E37C97F5A6 /* libPods-LXToolBarDemo.a */,
+				3BCD8587AE93BF1DF27D22F96E6C765C /* libUIButton-LXLayout.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -99,10 +111,18 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
-				581B0501731C1BDA6F2C212ECFED10D5 /* Pods */,
-				E475151636014B1CB1664C58AE418804 /* Products */,
+				8C7E17B082793BD0B3393B6DD5A7D7B3 /* Pods */,
+				5D63427220F55F8643BDCA216D6B125D /* Products */,
 				142F85BE2FCD970FDA6B247AB6BEFDCF /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8C7E17B082793BD0B3393B6DD5A7D7B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1B17983B5A0E785CD1B365D59250813 /* UIButton-LXLayout */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		A197F3DD6304F5BB1041CD77D310988D /* Pods-LXToolBarDemo */ = {
@@ -120,27 +140,6 @@
 			path = "Target Support Files/Pods-LXToolBarDemo";
 			sourceTree = "<group>";
 		};
-		BE510A22C5A9ED8047537E314D4A8E46 /* LXLayoutButton */ = {
-			isa = PBXGroup;
-			children = (
-				38665E1D97459A1DB2D47E0247696243 /* LXLayoutButton.h */,
-				FF8D2714F3420B59FA63401434CD2670 /* LXLayoutButton.m */,
-				CD993559CF9B7F7F2AEC49B2DE7F6D73 /* Support Files */,
-			);
-			path = LXLayoutButton;
-			sourceTree = "<group>";
-		};
-		CD993559CF9B7F7F2AEC49B2DE7F6D73 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DDA38A1E3E97F847C5CF070699AF80E5 /* LXLayoutButton.xcconfig */,
-				DEE6D95D4515230D0BA23747388B4827 /* LXLayoutButton-dummy.m */,
-				1DD7EA6F3C389A4B751A71198FD37953 /* LXLayoutButton-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/LXLayoutButton";
-			sourceTree = "<group>";
-		};
 		E35B3E289DB984DA75A774080D293670 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,61 +150,62 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E475151636014B1CB1664C58AE418804 /* Products */ = {
+		F1B17983B5A0E785CD1B365D59250813 /* UIButton-LXLayout */ = {
 			isa = PBXGroup;
 			children = (
-				F86B12FA89712F01B5537AF5BE8BD899 /* libLXLayoutButton.a */,
-				2E36AACDE1B8A07ED4353A01BEE83758 /* libPods-LXToolBarDemo.a */,
+				3866348253BF7AA2A9C5C2BAA8CB601E /* UIButton+LXLayout.h */,
+				F2DD281F3CF01C880305F86B9386414F /* UIButton+LXLayout.m */,
+				28C159F40FEB50F5D7D5BEFEB264BCCF /* Support Files */,
 			);
-			name = Products;
+			path = "UIButton-LXLayout";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		60357F07EF44F0FB66232C9419C66046 /* Headers */ = {
+		68F2EA842F1B0DAF6C9CD75706D893A3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				644A9C12C1C8015479F2265DF7B55859 /* LXLayoutButton.h in Headers */,
+				C3FD239169A266501CFEF9A8DADA89B2 /* UIButton+LXLayout.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6F2472B915C4ED685349851CB6B2590E /* Pods-LXToolBarDemo */ = {
+		8A2E12553A6C4ACD5B8EAA5125DF1DF8 /* Pods-LXToolBarDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA701496A33499303F6CDDB45C2FD869 /* Build configuration list for PBXNativeTarget "Pods-LXToolBarDemo" */;
+			buildConfigurationList = 1BC3A0AF12EF1A4390B69276E0BF6308 /* Build configuration list for PBXNativeTarget "Pods-LXToolBarDemo" */;
 			buildPhases = (
-				28869419F3E490E1F1C42E2F8358F204 /* Sources */,
-				F70AC8FE08F62141CC5333E3B487AC88 /* Frameworks */,
+				9F4FAD8419AACC34CCE098F39974EC61 /* Sources */,
+				7C8C180E4F1DF7BDE5053D52DCC13118 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CC57A9C75E0C3283592691C9362B0DB2 /* PBXTargetDependency */,
+				260729BF47635631A22A4688493C878B /* PBXTargetDependency */,
 			);
 			name = "Pods-LXToolBarDemo";
 			productName = "Pods-LXToolBarDemo";
-			productReference = 2E36AACDE1B8A07ED4353A01BEE83758 /* libPods-LXToolBarDemo.a */;
+			productReference = 341A0A803FDFDF10F56226E37C97F5A6 /* libPods-LXToolBarDemo.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		9DB87C8D66C51A4E933DF9F48DE7F285 /* LXLayoutButton */ = {
+		BEB4A03DA4957A361739EA5582F6E03D /* UIButton-LXLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1803A7919375B4F2D8E91FABF1401F07 /* Build configuration list for PBXNativeTarget "LXLayoutButton" */;
+			buildConfigurationList = C77595F7460C1374B58E50BB0610F631 /* Build configuration list for PBXNativeTarget "UIButton-LXLayout" */;
 			buildPhases = (
-				D149D1AD6DA20A0DD56A8363FD688966 /* Sources */,
-				57C40F2CC02611DFF23D3F304638EDBC /* Frameworks */,
-				60357F07EF44F0FB66232C9419C66046 /* Headers */,
+				2C7621050AE8D2A0880AFDD57B7E1BCC /* Sources */,
+				3FB942CDDF92B769C3E62B374C14BFB6 /* Frameworks */,
+				68F2EA842F1B0DAF6C9CD75706D893A3 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = LXLayoutButton;
-			productName = LXLayoutButton;
-			productReference = F86B12FA89712F01B5537AF5BE8BD899 /* libLXLayoutButton.a */;
+			name = "UIButton-LXLayout";
+			productName = "UIButton-LXLayout";
+			productReference = 3BCD8587AE93BF1DF27D22F96E6C765C /* libUIButton-LXLayout.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -225,71 +225,54 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = E475151636014B1CB1664C58AE418804 /* Products */;
+			productRefGroup = 5D63427220F55F8643BDCA216D6B125D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9DB87C8D66C51A4E933DF9F48DE7F285 /* LXLayoutButton */,
-				6F2472B915C4ED685349851CB6B2590E /* Pods-LXToolBarDemo */,
+				8A2E12553A6C4ACD5B8EAA5125DF1DF8 /* Pods-LXToolBarDemo */,
+				BEB4A03DA4957A361739EA5582F6E03D /* UIButton-LXLayout */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		28869419F3E490E1F1C42E2F8358F204 /* Sources */ = {
+		2C7621050AE8D2A0880AFDD57B7E1BCC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A95D11CEC9EC5647F90E60E2C46E71A /* Pods-LXToolBarDemo-dummy.m in Sources */,
+				95C758BFB268EE376CE2A7D085D31BFE /* UIButton+LXLayout.m in Sources */,
+				E014AD8D7A85E3AD00FC7E2A625993C9 /* UIButton-LXLayout-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D149D1AD6DA20A0DD56A8363FD688966 /* Sources */ = {
+		9F4FAD8419AACC34CCE098F39974EC61 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A62F4B5DBF39C29CA2780BEAB5B3FCE3 /* LXLayoutButton-dummy.m in Sources */,
-				D2AC5BD6A5CFA6C5E1660AC1D2CB0891 /* LXLayoutButton.m in Sources */,
+				BFE1C936E5B94390EAB2238A15CEB7AB /* Pods-LXToolBarDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CC57A9C75E0C3283592691C9362B0DB2 /* PBXTargetDependency */ = {
+		260729BF47635631A22A4688493C878B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = LXLayoutButton;
-			target = 9DB87C8D66C51A4E933DF9F48DE7F285 /* LXLayoutButton */;
-			targetProxy = 20BBC84B380345D3F80D21A05013C813 /* PBXContainerItemProxy */;
+			name = "UIButton-LXLayout";
+			target = BEB4A03DA4957A361739EA5582F6E03D /* UIButton-LXLayout */;
+			targetProxy = 84C8C9F658CFB668B93A32AAA5E29041 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		207C623399CE32DACC5A8259D1324BEC /* Debug */ = {
+		53E04A995EA732B741CCA38C2FBE998B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1B84B1DC5E5897B0CF8C6F8851B4A29 /* Pods-LXToolBarDemo.debug.xcconfig */;
+			baseConfigurationReference = FF3A9816E57B9413B66C1760DA5019FA /* UIButton-LXLayout.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				MACH_O_TYPE = staticlib;
+				GCC_PREFIX_HEADER = "Target Support Files/UIButton-LXLayout/UIButton-LXLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		37333904A2295A5249D03E03CF93A941 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DDA38A1E3E97F847C5CF070699AF80E5 /* LXLayoutButton.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/LXLayoutButton/LXLayoutButton-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -298,14 +281,14 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
-		A8C0E638F3E4DA237ECDC64CEEC2EF6D /* Release */ = {
+		6237666C33529149E9886B29CF50A039 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CE111FC82425AFDB9DDAD3812CE32CA9 /* Pods-LXToolBarDemo.release.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
@@ -317,7 +300,7 @@
 			};
 			name = Release;
 		};
-		C074F63C9EE7CB4D8C618390A32CEC35 /* Debug */ = {
+		6569F07DC21AD8B72752685013E3D9D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -349,32 +332,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		D4E3D80C2CA7F29C1B6334A7907E15F6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DDA38A1E3E97F847C5CF070699AF80E5 /* LXLayoutButton.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/LXLayoutButton/LXLayoutButton-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		E43846B588E1892F3093F3B7082B6DFB /* Release */ = {
+		A14E2444F162A20E3776820E0ADFFB52 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -401,21 +366,56 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
+		C001FC74F393C6FAF755A4CEAAA6CCD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1B84B1DC5E5897B0CF8C6F8851B4A29 /* Pods-LXToolBarDemo.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CE7C144ADE260A2018F4E089B5D5C912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF3A9816E57B9413B66C1760DA5019FA /* UIButton-LXLayout.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIButton-LXLayout/UIButton-LXLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1803A7919375B4F2D8E91FABF1401F07 /* Build configuration list for PBXNativeTarget "LXLayoutButton" */ = {
+		1BC3A0AF12EF1A4390B69276E0BF6308 /* Build configuration list for PBXNativeTarget "Pods-LXToolBarDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D4E3D80C2CA7F29C1B6334A7907E15F6 /* Debug */,
-				37333904A2295A5249D03E03CF93A941 /* Release */,
+				C001FC74F393C6FAF755A4CEAAA6CCD4 /* Debug */,
+				6237666C33529149E9886B29CF50A039 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -423,17 +423,17 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C074F63C9EE7CB4D8C618390A32CEC35 /* Debug */,
-				E43846B588E1892F3093F3B7082B6DFB /* Release */,
+				6569F07DC21AD8B72752685013E3D9D8 /* Debug */,
+				A14E2444F162A20E3776820E0ADFFB52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA701496A33499303F6CDDB45C2FD869 /* Build configuration list for PBXNativeTarget "Pods-LXToolBarDemo" */ = {
+		C77595F7460C1374B58E50BB0610F631 /* Build configuration list for PBXNativeTarget "UIButton-LXLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				207C623399CE32DACC5A8259D1324BEC /* Debug */,
-				A8C0E638F3E4DA237ECDC64CEEC2EF6D /* Release */,
+				53E04A995EA732B741CCA38C2FBE998B /* Debug */,
+				CE7C144ADE260A2018F4E089B5D5C912 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

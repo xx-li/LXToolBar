@@ -4,6 +4,6 @@
 # use_frameworks!
 
 target 'LXToolBarDemo' do
-pod 'LXLayoutButton', '~> 0.0.1'
+pod 'UIButton-LXLayout', '~> 0.1'
 end
 

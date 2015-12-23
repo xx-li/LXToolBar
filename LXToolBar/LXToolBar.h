@@ -55,21 +55,27 @@
 
 @property (weak, nonatomic) IBOutlet id <LXToolBarDelegate> delegate;
 
-/*! 画一根下部的分割线,若设为Yes,则会将isDrawTopSepLine设为NO */
+/*! 是否画一根下部的分割线 */
 @property (assign, nonatomic) BOOL isDrawBottomSepLine;
 
-/*! 画一根上部的分割线若设为Yes,则会将isDrawBottomSepLine设为NO */
+/*! 是否画一根上部的分割线若设为Yes */
 @property (assign, nonatomic) BOOL isDrawTopSepLine;
 
 /*! 是否显示每个item之间的分割线 */
-@property (assign, nonatomic) BOOL isShowSeparatorLine;
+@property (assign, nonatomic) BOOL isShowItemSeparatorLine;
 
 /*! 是否隐藏滑块 */
 @property (assign, nonatomic) BOOL isShowSelectedTag;
 
 /*! 分割线的EdgeInsets,只有上下的值会生效 */
 @property (assign, nonatomic) UIEdgeInsets separatorLineInsets;
-@property (strong, nonatomic) UIColor *separatorLineColor;
+
+/*! item直接的分割线的颜色 */
+@property (strong, nonatomic) UIColor *itemSeparatorLineColor;
+
+/*! 上下分割线的颜色，默认为alpha值为0.25的黑色 */
+@property (strong, nonatomic) UIColor *edgeSeparatorLineColor;
+
 @property (strong, nonatomic) UIImage *separatorImage;
 
 /*! 选中的下标 */

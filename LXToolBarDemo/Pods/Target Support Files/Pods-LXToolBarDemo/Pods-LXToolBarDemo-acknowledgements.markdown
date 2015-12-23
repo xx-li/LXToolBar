@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## LXLayoutButton
+## UIButton-LXLayout
 
 The MIT License (MIT)
 
