@@ -6,7 +6,7 @@
 <img src="./LXToolBar.gif"/>
 
 ###Cocoapods接入
-`pod 'LXToolBar', '~> 0.1'`
+`pod 'LXToolBar', '~> 0.2'`
 
 ###使用方法
 ```objc
