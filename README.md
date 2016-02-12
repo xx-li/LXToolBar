@@ -5,7 +5,7 @@
 ###图示如下：
 <img src="./LXToolBar.gif"/>
 
-###Cocoapods接入
+###CocoaPods接入
 `pod 'LXToolBar', '~> 0.2'`
 
 ###使用方法
